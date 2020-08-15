@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" href="./Assests/faveicon-webfix.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./Assests/faveicon-webfix.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./Assests/faveicon-webfix.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./Assests/faveicon-webfix.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./Assests/faveicon-webfix.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Webfix Inc | Toronto, Canada</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light px-5">
+        <a href="/" class="navbar-brand" style="padding-bottom: 0; margin-right: 2rem;">
+            <img src="./Assests/Webfix Icon.svg" height="100" width="100" alt="Webfix">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse" style="margin-top: -.5rem;">
+            <div class="navbar-nav">
+                <li class="nav-item ml-2 ml-lg-5">
+                    <a class="nav-link" href="./aboutus.html">About</a>
+                </li>
+                <li class="nav-item ml-3 ml-xl-5">
+                    <a class="nav-link" href="./process.html">Process</a>
+                </li>
+                <li class="nav-item ml-3 ml-xl-5 active">
+                    <a class="nav-link" href="./services.html">Service</a>
+                </li>
+
+            
+                <li class="nav-item ml-3 ml-xl-5">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item ml-xl-5">
+                    <a class="nav-link" href="https://www.webfix.io/" target="_blank">Build Website For $299</a>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <main class="services-main">
+
+        <section class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h1 class="heading mb-0">CMS & E-commerce Services</h1>
+                    <h2 class="second-heading">TURNING IDEAS INTO MASTERPIECES</h2>
+                </div>
+            </div>
+            <div onclick="openCity(event, 'magento')" class="tablinks media-container my-5 ">
+                <div data-aos="fade-right" data-aos-easing="ease-in" data-aos-delay="100" data-aos-once="true" class="media">
+
+                    <img src="./Assests/services/4.svg" class=" mr-3" alt="...">
+                    <div class="media-body align-self-center">
+                        <h1 class="mt-0">Magento Development </h1>
+                        <p>
+                            We help our clients build incredibly smart and flexible CMS and E commerce services for their businesses.
+                        </p>
+                        <a href="#magento" class="stretched-link"></a>
+                    </div>
+
+                </div>
+            </div>
+            <div onclick="openCity(event, 'wordpress')" class="tablinks media-container my-5 ">
+                <div data-aos="fade-left" data-aos-easing="ease-in" data-aos-delay="100" data-aos-once="true" class="media">
+                    <img src="./Assests/services/4.svg" class=" mr-3" alt="...">
+                    <div class="media-body align-self-center">
+                        <h1 class="mt-0">WordPress Development</h1>
+                        <p>
+                            We help our clients build incredibly smart and flexible CMS and E commerce services for their businesses.
+                        </p>
+                    </div>
+                    <a href="#wordpress" class="stretched-link"></a>
+                </div>
+
+            </div>
+            <div onclick="openCity(event, 'drupal')" class="tablinks media-container my-5 ">
+                <div data-aos="fade-right" data-aos-easing="ease-in" data-aos-delay="100" data-aos-once="true" class="media">
+                    <img src="./Assests/services/4.svg" class=" mr-3" alt="...">
+                    <div class="media-body align-self-center">
+                        <h1 class="mt-0">Drupal Ecommerce Development </h1>
+                        <p>
+                            We help our clients build incredibly smart and flexible CMS and E commerce services for their businesses.
+                        </p>
+                    </div>
+                    <a href="#drupal" class="stretched-link"></a>
+                </div>
+            </div>
+            <div onclick="openCity(event, 'joomla')" class="tablinks media-container my-5 ">
+                <div data-aos="fade-left" data-aos-easing="ease-in" data-aos-delay="100" data-aos-once="true" class="media">
+                    <img src="./Assests/services/4.svg" class=" mr-3" alt="...">
+                    <div class="media-body align-self-center">
+                        <h1 class="mt-0">Joomla Development</h1>
+                        <p>
+                            We help our clients build incredibly smart and flexible CMS and E commerce services for their businesses.
+                        </p>
+                    </div>
+                    <a href="#joomla" class="stretched-link"></a>
+                </div>
+            </div>
+            <div onclick="openCity(event, 'shopify')" class="tablinks media-container my-5 ">
+                <div data-aos="fade-left" data-aos-easing="ease-in" data-aos-delay="100" data-aos-once="true" class="media">
+                    <img src="./Assests/services/4.svg" class=" mr-3" alt="...">
+                    <div class="media-body align-self-center">
+                        <h1 class="mt-0">Shopify Store Development</h1>
+                        <p>
+                            We help our clients build incredibly smart and flexible CMS and E commerce services for their businesses.
+                        </p>
+                    </div>
+                    <a href="#shopify" class="stretched-link"></a>
+                </div>
+            </div>
+            <div onclick="openCity(event, 'opencart')" class="tablinks media-container my-5 ">
+                <div data-aos="fade-left" data-aos-easing="ease-in" data-aos-delay="100" data-aos-once="true" class="media">
+                    <img src="./Assests/services/4.svg" class=" mr-3" alt="...">
+                    <div class="media-body align-self-center">
+                        <h1 class="mt-0">Open Cart Development</h1>
+                        <p>
+                            We help our clients build incredibly smart and flexible CMS and E commerce services for their businesses.
+                        </p>
+                    </div>
+                    <a href="#opencart" class="stretched-link"></a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div id="magento" class="tabcontent my-5" style="display: block;">
+                <h1 class="heading ">Magento Development</h1>
+                <p>
+
+                    Whether you need Magento website development from scratch or want to customize an existing theme, we offer expert assistance to make your solution pay off. Starting out from the out-of-the-box functionality and empowering it with advances on the way,
+                    we fully achieve the vision and goals set at the stage of business analysis.
+
+                </p>
+                <p>
+                    Our implementation and customization services include, among others:
+                </p>
+                <ul>
+                    <li> Theme development</li>
+                    <li> Ready-made theme customization</li>
+                    <li> Web store redesign </li>
+                    <li> Custom extension and plugin development </li>
+                    <li> Integration of extensions and plugins available on the Magento Marketplace </li>
+                    <li> Checkout optimization </li>
+                    <li> Multistore setup </li>
+                </ul>
+            </div>
+
+            <div id="wordpress" class="tabcontent my-5" style="display: none;">
+                <h1 class="heading ">WordPress Developemnt</h1>
+                <p>
+
+                    Looking for a powerful, compact and a high-performing WordPress website? You’re at the right place. We specialize in creating effective, bespoke websites with a clean UI using cutting edge web technologies. We create clean and robust WordPress applications
+                    that really sings and delivers better business results for you as time goes on. Our expertise has garnered us industry recognition and we’re proud to be WordPress core contributors.
+
+                </p>
+
+                <p>Our services include:</p>
+                <ul>
+                    <li> WordPress Website Design</li>
+                    <li>WordPress Multisite Development</li>
+                    <li>WordPress Migration Services</li>
+                    <li>WordPress Maintenance Services</li>
+                    <li>Custom WordPress Development</li>
+                    <li>WordPress API Integration</li>
+                </ul>
+            </div>
+            <div id="drupal" class="tabcontent my-5" style="display: none;">
+                <h1 class="heading">Drupal Ecommerce Developemnt</h1>
+                <p>
+                    Looking for a powerful, compact and a high-performing WordPress website? You’re at the right place. We specialize in creating effective, bespoke websites with a clean UI using cutting edge web technologies. We create clean and robust WordPress applications
+                    that really sings and delivers better business results for you as time goes on. Our expertise has garnered us industry recognition and we’re proud to be WordPress core contributors.
+                </p>
+                <p>Our services include:</p>
+                <ul>
+                    <li> WordPress Website Design </li>
+                    <li> WordPress Multisite Development</li>
+                    <li> WordPress Migration Services</li>
+                    <li> WordPress Maintenance Services </li>
+                    <li> Custom WordPress Development </li>
+                    <li> WordPress API Integration </li>
+                </ul>
+            </div>
+            <div id="joomla" class="tabcontent my-5" style="display: none;">
+                <h1 class="heading">Joomla Development</h1>
+                <p>
+                    Web Fix Inc. also uses Joomla to develop strong websites that can complement your brand and build your business online through results-driven digital solutions.
+                </p>
+
+                <ul>
+                    <li>
+                        Joomla’s various themes and functions allow for endless possibilities in designing a website for your company, customizing it for your audience, and utilizing it to grow your digital footprint.
+                    </li>
+                    <li>
+                        From ecommerce designs to online publications, Joomla can be structured to fit your industry, and catered to satisfy your specific audience.
+                    </li>
+                    <li>
+                        Joomla’s diverse extensions give you the necessary tools to adjust your website or mobile app to fit the needs of your business and customize your platform for digital success.
+                    </li>
+                </ul>
+            </div>
+            <div id="shopify" class="tabcontent my-5" style="display: none;">
+                <h1 class="heading">Shopify Store Development</h1>
+                <p>
+                    We will develop and help you maintain fully-hosted Shopify stores with our Shopify Custom Store Design Services with keen focus on intuitive design and robust functionalities.
+
+                </p>
+
+                <p>
+                    With Webfix Inc. you will get a quicker turnaround time and unmatched technical support. We enable around the clock security to enable safe online transactions on your store and open it up to endless design possibilities. We will build a stunning, intuitive
+                    Shopify theme from scratch or help you turn YOUR ideas into fully-functional websites or web apps with advanced features and functionalities. Web Fix Inc. houses the finest Shopify specialists with years of experience in providing
+                    eCommerce solutions for businesses large and small.
+                </p>
+            </div>
+            <div id="opencart" class="tabcontent my-5" style="display: none;">
+                <h1 class="heading">Open Cart Development</h1>
+                <p>
+
+                    As a part of our Open Cart services we offer Open Cart web design, development, integration services while working closely with the clients so that amazing Open Cart eCommerce website is create that meets your very needs. It has been years since we are
+                    addressing the requirements of diverse clients with the help of our Open Cart development services. The preferences and views of our clients are taken into account in order to create a website that suits their business needs well.
+
+                </p>
+
+                <p>
+                    At Webfix Inc. we have an experienced team for Open Cart web development and customization delivering Custom Open Cart development services for both small and large-scale projects. Our experienced developers ensure the projects are submitted on time while
+                    delivering 100% satisfaction of clients. So, with us you get dynamic solutions at affordable and cost-effective prices.
+                </p>
+            </div>
+        </section>
+
+    </main>
+    <footer data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="container-fluid bg-white">
+        <div class="footer ">
+            <div class="row justify-content-between p-5">
+                <div class=" col-sm-6  col-md-1  text-left">
+                    <p class="">
+                        <a class="d-block text-dark footer-nav-link" href="./aboutus.html" target="black">About
+                        </a>
+                        <a class=" d-block text-dark footer-nav-link" href="./process.html">Process</a>
+                        <a class="d-block text-dark footer-nav-link" href="./services.html">Service </a>
+                        <a class=" d-block text-dark footer-nav-link" href="./coming-soon.html" target="black">Thought</a>
+                        <a class="d-block text-dark footer-nav-link" href="./coming-soon.html" target="black">Tools </a>
+                    </p>
+                </div>
+                <div class=" col-sm-6 col-md-1">
+                    <p class="">
+                        <a class="d-block text-dark footer-nav-link" href="./jobs.html" target="black">Jobs
+                        </a>
+                        <a class=" d-block text-dark footer-nav-link" href="./blog.html" target="black">Blog</a>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4 mb-3 footer-col-3">
+                    <div class="footer-col-3">
+                        <div class="">
+                            <img src="./Assests/Webfix Logo.svg" class="footer-logo" alt="webfix Logo">
+                        </div>
+                        <div>
+                            <p class="lead">Toll-Free</p>
+                            <p>1-8888-WEBFIX</p>
+                            <p>
+                                <a href="https://twitter.com/webfixinc" target="blank">
+                                    <img src="./Assests/Twitter.svg" class="img-fluid footer-icons anim-icon "
+                                        width="45px" height="50px" alt="Twitter" />
+                                </a>
+                                <a href="https://www.linkedin.com/company/webfixinc" class="ml-2" target="blank">
+                                    <img src="./Assests/linkedin.svg" class="img-fluid footer-icons anim-icon"
+                                        width="45px" height="50px" alt="Linkedin" />
+                                </a>
+                                <a href="https://www.facebook.com/webfixinc" class="ml-2" target="blank">
+                                    <img src="./Assests/facebook.svg" class="img-fluid footer-icons anim-icon"
+                                        width="45px" height="50px" alt="facebook icon" />
+                                </a>
+                                <a href="https://www.instagram.com/webfixinc/" class="ml-2" target="blank">
+                                    <img src="./Assests/Instagram.svg" class="img-fluid footer-icons anim-icon"
+                                        width="45px" height="50px" alt="Instagram" />
+                                </a>
+                            </p>
+                            <p class="lead">A project by Al Shahzad Group Co.</p>
+                            <p class="lead small">Copyright © 2020 Webfix Inc. All rights reserved</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-12 col-md-4 footer-col-4">
+                    <img src="./Assests/Canada Map.svg" class="img-fluid" width="260px" alt="" />
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Optional JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./js/tabs.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
