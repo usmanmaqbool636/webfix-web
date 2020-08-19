@@ -155,7 +155,7 @@ li.nav-item:last-child {
     height                : 37vw;
     width                 : 100%;
     /* background-size    : cover; */
-    /* background-position: center center; */
+    background-position: center bottom;
     max-height            : 714px;
     background-repeat     : no-repeat;
     background-color      : #ff9797;
@@ -1062,8 +1062,8 @@ footer {
 
     .slider-becomepartner,
     .slider-portfolio {
-        background-position: 90% center !important;
-        background-size    : 50% !important;
+        background-position: 94% center !important;
+        background-size    : 45% !important;
     }
 
     .w-100 {
@@ -1211,8 +1211,8 @@ footer {
 
     .slider-becomepartner,
     .slider-portfolio {
-        background-position: 90% bottom !important;
-        background-size    : 50% !important;
+        background-position: 93% bottom !important;
+        background-size    : 48% !important;
     }
 
     .w-100 {
@@ -1374,13 +1374,13 @@ footer {
 @media (min-width: 1200px) {
     .slider-services {
         background-position: 92% bottom !important;
-        background-size    : 30% !important;
+        background-size    : 30% 95% !important;
     }
 
     .slider-becomepartner,
     .slider-portfolio {
         background-position: 92% bottom !important;
-        background-size    : 44% !important;
+        background-size    : 44% 95% !important;
     }
 
     .w-100 {
@@ -1622,11 +1622,15 @@ footer {
     }
 
     .service {
-        height          : 370px;
+        height          : 420px;
         width           : 42%;
         margin          : 2.5rem;
     }
 }
-
+@media (min-width:1920px){
+    /* .slider-becomepartner{
+        background-size: 40% !important;
+    } */
+}
 
 /* End Media Queries */
