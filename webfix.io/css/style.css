@@ -358,12 +358,6 @@ li.nav-item:last-child {
     height               : auto;
     background-color     : rgba(0, 0, 0, 0.03);
     margin-top           : 5rem !important;
-    border-radius        : 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius   : 50%;
-    -ms-border-radius    : 50%;
-    -o-border-radius     : 50%;
-    padding              : 9rem 0rem 17rem 0rem;
 }
 
 .become-partner-form h1 {
@@ -791,8 +785,7 @@ footer {
     }
 
     .become-partner-form {
-        padding      : 3rem 0;
-        border-radius: 0;
+        padding      : 2.5rem 0;
     }
 
     .service-section {
@@ -1334,7 +1327,7 @@ footer {
     }
 
     .become-partner-form {
-        padding: 17vw 0px 32vw;
+        padding: 5rem;
     }
 
     .anim-icon {
@@ -1504,7 +1497,7 @@ footer {
     }
 
     .become-partner-form {
-        padding: 17vw 0px 32vw;
+        padding: 5.5rem;
     }
 
     .anim-icon {
@@ -1614,7 +1607,7 @@ footer {
     }
 
     .become-partner-form {
-        padding: 17vw 0px 32vw;
+        padding: 6rem;
     }
 
     .card-title .heading-1 {
